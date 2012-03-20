@@ -1,0 +1,629 @@
+<!--  Copyright (C) 2010  INRIA, Planète Team                                 -->
+<!--  Authors:                                                                -->
+<!--  Amir Krifa			:  Amir.Krifa@sophia.inria.fr                           -->
+<!--  Imed Lassoued	            :  Imed.Lassoued@sophia.inria.fr              -->
+<!--  Chadi Barakat			:  Chadi.Barakat@sophia.inria.fr                      -->
+<!--This program is free software; you can redistribute it and/or              -->
+<!--modify it under the terms of the GNU General Public License version 3      -->
+<!--as published by the Free Software Foundation.                              -->
+<!--This program is distributed in the hope that it will be useful,            -->
+<!--but WITHOUT ANY WARRANTY; without even the implied warranty of             -->
+<!--MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the              -->
+<!--GNU General Public License for more details.                               -->
+<!--You should have received a copy of the GNU General Public License          -->
+<!--along with this program; if not, write to the Free Software                -->
+<!--Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.-->
+
+<?xml version="1.0" ?>
+<TransitNetwork NumberOfRouters="23" NumberOfLinks="62">
+	<Nodes>
+		<Router Number="1" NumberOfAdapters="3" IsMonitor="1" EdgeAs="As1">
+			<Interface Ip="10.0.0.127" In = "0" Out = "0" >Ethernet</Interface>
+			<Interface Ip="10.0.0.169" In = "0" Out = "0">Ethernet</Interface>
+			<Interface Ip="10.0.1.1" In = "1" Out = "0">Ethernet</Interface>
+		</Router>
+		
+		<Router Number="2" NumberOfAdapters="7" IsMonitor="0" EdgeAs="As2">
+			<Interface Ip="10.0.0.138" In = "0" Out = "0">Ethernet</Interface>
+			<Interface Ip="10.0.0.126" In = "0" Out = "0" >Ethernet</Interface>
+			<Interface Ip="10.0.0.182" In = "0" Out = "0">Ethernet</Interface>
+			<Interface Ip="10.0.0.90" In = "0" Out = "0">Ethernet</Interface>
+			<Interface Ip="10.0.0.69" In = "0" Out = "0">Ethernet</Interface>
+			<Interface Ip="10.0.0.170" In = "1" Out = "1">Ethernet</Interface>
+			<Interface Ip="10.0.2.1" In = "1" Out = "1">Ethernet</Interface>
+		</Router>
+		
+		<Router Number="3" NumberOfAdapters="3" IsMonitor="0" EdgeAs="As3">
+			<Interface Ip="10.0.0.166" In = "0" Out = "0" >Ethernet</Interface>
+			<Interface Ip="10.0.0.137" In = "1" Out = "1">Ethernet</Interface>
+			<Interface Ip="10.0.3.1" In = "1" Out = "1">Ethernet</Interface>
+		</Router>
+		
+		<Router Number="4" NumberOfAdapters="5" IsMonitor="0" EdgeAs="As4">
+			<Interface Ip="10.0.0.102" In = "0" Out = "0" >Ethernet</Interface>
+			<Interface Ip="10.0.0.22" In = "0" Out = "0">Ethernet</Interface>
+			<Interface Ip="10.0.0.117" In = "0" Out = "0">Ethernet</Interface>
+			<Interface Ip="10.0.0.181" In = "1" Out = "1">Ethernet</Interface>
+			<Interface Ip="10.0.4.1" In = "1" Out = "1">Ethernet</Interface>
+		</Router>
+		
+		<Router Number="5" NumberOfAdapters="4" IsMonitor="0" EdgeAs="As5">
+			<Interface Ip="10.0.0.25" In = "0" Out = "0" >Ethernet</Interface>
+			<Interface Ip="10.0.0.17" In = "0" Out = "0">Ethernet</Interface>
+			<Interface Ip="10.0.0.21" In = "1" Out = "1">Ethernet</Interface>
+			<Interface Ip="10.0.5.1" In = "1" Out = "1">Ethernet</Interface>
+		</Router>
+		
+		<Router Number="6" NumberOfAdapters="7" IsMonitor="0" EdgeAs="As6">
+			<Interface Ip="10.0.0.89" In = "0" Out = "0" >Ethernet</Interface>
+			<Interface Ip="10.0.0.18" In = "0" Out = "0">Ethernet</Interface>
+			<Interface Ip="10.0.0.85" In = "0" Out = "0">Ethernet</Interface>
+			<Interface Ip="10.0.0.50" In = "0" Out = "0">Ethernet</Interface>
+			<Interface Ip="10.0.0.10" In = "0" Out = "0">Ethernet</Interface>
+			<Interface Ip="10.0.0.30" In = "1" Out = "1">Ethernet</Interface>
+			<Interface Ip="10.0.6.1" In = "1" Out = "1">Ethernet</Interface>
+		</Router>
+		
+		<Router Number="7" NumberOfAdapters="4" IsMonitor="0" EdgeAs="As7">
+			<Interface Ip="10.0.0.29" In = "0" Out = "0" >Ethernet</Interface>
+			<Interface Ip="10.0.0.33" In = "0" Out = "0">Ethernet</Interface>
+			<Interface Ip="10.0.0.2" In = "1" Out = "1">Ethernet</Interface>
+			<Interface Ip="10.0.7.1" In = "1" Out = "1">Ethernet</Interface>
+		</Router>
+		
+		<Router Number="8" NumberOfAdapters="3" IsMonitor="0" EdgeAs="As8">
+			<Interface Ip="10.0.0.70" In = "0" Out = "0" >Ethernet</Interface>
+			<Interface Ip="10.0.0.78" In = "1" Out = "1">Ethernet</Interface>
+			<Interface Ip="10.0.8.1" In = "1" Out = "1">Ethernet</Interface>
+		</Router>
+		
+		<Router Number="9" NumberOfAdapters="3" IsMonitor="0" EdgeAs="As9">
+			<Interface Ip="10.0.0.26" In = "0" Out = "0" >Ethernet</Interface>
+			<Interface Ip="10.0.0.86" In = "1" Out = "1">Ethernet</Interface>
+			<Interface Ip="10.0.9.1" In = "1" Out = "1">Ethernet</Interface>
+		</Router>
+				
+		<Router Number="10" NumberOfAdapters="4" IsMonitor="0" EdgeAs="As10">
+			<Interface Ip="10.0.0.185" In = "0" Out = "0" >Ethernet</Interface>
+			<Interface Ip="10.0.0.77" In = "0" Out = "0">Ethernet</Interface>
+			<Interface Ip="10.0.0.9" In = "1" Out = "1">Ethernet</Interface>
+			<Interface Ip="10.0.10.1" In = "1" Out = "1">Ethernet</Interface>
+		</Router>
+				
+		<Router Number="11" NumberOfAdapters="6" IsMonitor="0" EdgeAs="As11">
+			<Interface Ip="10.0.0.101" In = "0" Out = "0" >Ethernet</Interface>
+			<Interface Ip="10.0.0.165" In = "0" Out = "0">Ethernet</Interface>
+			<Interface Ip="10.0.0.38" In = "0" Out = "0">Ethernet</Interface>
+			<Interface Ip="10.0.0.129" In = "0" Out = "0">Ethernet</Interface>
+			<Interface Ip="10.0.0.49" In = "1" Out = "1">Ethernet</Interface>
+			<Interface Ip="10.0.11.1" In = "1" Out = "1">Ethernet</Interface>
+		</Router>
+		
+						
+		<Router Number="12" NumberOfAdapters="4" IsMonitor="0" EdgeAs="As12">
+			<Interface Ip="10.0.0.113" In = "0" Out = "0" >Ethernet</Interface>
+			<Interface Ip="10.0.0.66" In = "0" Out = "0">Ethernet</Interface>
+			<Interface Ip="10.0.0.125" In = "1" Out = "1">Ethernet</Interface>
+			<Interface Ip="10.0.12.1" In = "1" Out = "1">Ethernet</Interface>
+		</Router>
+		
+		<Router Number="13" NumberOfAdapters="6" IsMonitor="0" EdgeAs="As13">
+			<Interface Ip="10.0.0.65" In = "0" Out = "0" >Ethernet</Interface>
+			<Interface Ip="10.0.0.58" In = "0" Out = "0">Ethernet</Interface>
+			<Interface Ip="10.0.0.82" In = "0" Out = "0">Ethernet</Interface>
+			<Interface Ip="10.0.0.61" In = "0" Out = "0">Ethernet</Interface>
+			<Interface Ip="10.0.0.130" In = "1" Out = "1">Ethernet</Interface>
+			<Interface Ip="10.0.13.1" In = "1" Out = "1">Ethernet</Interface>
+		</Router>
+		
+		
+		<Router Number="14" NumberOfAdapters="6" IsMonitor="0" EdgeAs="As14">
+			<Interface Ip="10.0.0.186" In = "0" Out = "0" >Ethernet</Interface>
+			<Interface Ip="10.0.0.62" In = "0" Out = "0">Ethernet</Interface>
+			<Interface Ip="10.0.0.154" In = "0" Out = "0">Ethernet</Interface>
+			<Interface Ip="10.0.0.142" In = "0" Out = "0">Ethernet</Interface>
+			<Interface Ip="10.0.0.34" In = "1" Out = "1">Ethernet</Interface>
+			<Interface Ip="10.0.14.1" In = "1" Out = "1">Ethernet</Interface>
+		</Router>
+				
+		<Router Number="15" NumberOfAdapters="6" IsMonitor="0" EdgeAs="As15">
+			<Interface Ip="10.0.0.177" In = "0" Out = "0" >Ethernet</Interface>
+			<Interface Ip="10.0.0.13" In = "0" Out = "0">Ethernet</Interface>
+			<Interface Ip="10.0.0.110" In = "0" Out = "0">Ethernet</Interface>
+			<Interface Ip="10.0.0.1" In = "0" Out = "0">Ethernet</Interface>
+			<Interface Ip="10.0.0.57" In = "1" Out = "1">Ethernet</Interface>
+			<Interface Ip="10.0.15.1" In = "1" Out = "1">Ethernet</Interface>
+		</Router>
+		
+						
+		<Router Number="16" NumberOfAdapters="3" IsMonitor="0" EdgeAs="As16">
+			<Interface Ip="10.0.0.46" In = "0" Out = "0" >Ethernet</Interface>
+			<Interface Ip="10.0.0.114" In = "1" Out = "1">Ethernet</Interface>
+			<Interface Ip="10.0.16.1" In = "1" Out = "1">Ethernet</Interface>
+		</Router>
+	
+		<Router Number="17" NumberOfAdapters="4" IsMonitor="0" EdgeAs="As17">
+			<Interface Ip="10.0.0.45" In = "0" Out = "0" >Ethernet</Interface>
+			<Interface Ip="10.0.0.37" In = "0" Out = "0">Ethernet</Interface>
+			<Interface Ip="10.0.0.41" In = "1" Out = "1">Ethernet</Interface>
+			<Interface Ip="10.0.17.1" In = "1" Out = "1">Ethernet</Interface>
+		</Router>
+		
+		<Router Number="18" NumberOfAdapters="3" IsMonitor="0" EdgeAs="As18">
+			<Interface Ip="10.0.0.42" In = "0" Out = "0" >Ethernet</Interface>
+			<Interface Ip="10.0.0.106" In = "1" Out = "1">Ethernet</Interface>
+			<Interface Ip="10.0.18.1" In = "1" Out = "1">Ethernet</Interface>
+		</Router>
+	
+		<Router Number="19" NumberOfAdapters="4" IsMonitor="0" EdgeAs="As19">
+			<Interface Ip="10.0.0.105" In = "0" Out = "0" >Ethernet</Interface>
+			<Interface Ip="10.0.0.146" In = "0" Out = "0">Ethernet</Interface>
+			<Interface Ip="10.0.0.178" In = "1" Out = "1">Ethernet</Interface>
+			<Interface Ip="10.0.19.1" In = "1" Out = "1">Ethernet</Interface>
+		</Router>
+	
+		<Router Number="20" NumberOfAdapters="3" IsMonitor="0" EdgeAs="As20">
+			<Interface Ip="10.0.0.145" In = "0" Out = "0" >Ethernet</Interface>
+			<Interface Ip="10.0.0.73" In = "1" Out = "1">Ethernet</Interface>
+			<Interface Ip="10.0.20.1" In = "1" Out = "1">Ethernet</Interface>
+		</Router>
+		
+		<Router Number="21" NumberOfAdapters="3" IsMonitor="0" EdgeAs="As21">
+			<Interface Ip="10.0.0.74" In = "0" Out = "0" >Ethernet</Interface>
+			<Interface Ip="10.0.0.14" In = "1" Out = "1">Ethernet</Interface>
+			<Interface Ip="10.0.21.1" In = "1" Out = "1">Ethernet</Interface>
+		</Router>
+		
+		<Router Number="22" NumberOfAdapters="3" IsMonitor="0" EdgeAs="As22">
+			<Interface Ip="10.0.0.141" In = "0" Out = "0" >Ethernet</Interface>
+			<Interface Ip="10.0.0.81" In = "1" Out = "1">Ethernet</Interface>
+			<Interface Ip="10.0.22.1" In = "1" Out = "1">Ethernet</Interface>
+		</Router>
+		
+		<Router Number="23" NumberOfAdapters="3" IsMonitor="0" EdgeAs="As23">
+			<Interface Ip="10.0.0.153" In = "0" Out = "0" >Ethernet</Interface>
+			<Interface Ip="10.0.0.118" In = "1" Out = "1">Ethernet</Interface>
+			<Interface Ip="10.0.23.1" In = "1" Out = "1">Ethernet</Interface>
+		</Router>
+	</Nodes>
+	
+	<Links>
+	
+	<!-- Router 1-->
+	
+		<Link Number="1" Bandwidth="100" Cost="1" Delay="1" Adapter1="As1" Adapter2="10.0.1.1" NumberOfDest="3">
+			<Dest Number="1" Destination="As1" InterfaceTowardDest="As1"></Dest>
+			<Dest Number="2" Destination="As2" InterfaceTowardDest="10.0.1.1"></Dest>
+			<Dest Number="3" Destination="As15" InterfaceTowardDest="10.0.1.1"></Dest>
+		</Link>
+		
+		
+		<Link Number="2" Bandwidth="100" Cost="20050" Delay="1" Adapter1="10.0.0.127" Adapter2="10.0.0.110" NumberOfDest="2">
+			<Dest Number="1" Destination="As15" InterfaceTowardDest="10.0.0.110"></Dest>
+			<Dest Number="2" Destination="As1" InterfaceTowardDest="10.0.0.127"></Dest>
+		</Link>
+		
+	<!-- Router 2-->
+	
+		<Link Number="3" Bandwidth="100" Cost="1" Delay="1" Adapter1="As2" Adapter2="10.0.2.1" NumberOfDest="7">
+			<Dest Number="1" Destination="As2" InterfaceTowardDest="As2"></Dest>
+			<Dest Number="2" Destination="As1" InterfaceTowardDest="10.0.2.1"></Dest>
+			<Dest Number="3" Destination="As12" InterfaceTowardDest="10.0.2.1"></Dest>
+			<Dest Number="4" Destination="As4" InterfaceTowardDest="10.0.2.1"></Dest>
+			<Dest Number="5" Destination="As6" InterfaceTowardDest="10.0.2.1"></Dest>
+			<Dest Number="6" Destination="As8" InterfaceTowardDest="10.0.2.1"></Dest>
+			<Dest Number="7" Destination="As3" InterfaceTowardDest="10.0.2.1"></Dest>
+			
+		</Link>
+		
+		
+		<Link Number="4" Bandwidth="100" Cost="20000" Delay="1" Adapter1="10.0.0.170" Adapter2="10.0.0.169" NumberOfDest="2">
+			<Dest Number="1" Destination="As1" InterfaceTowardDest="10.0.0.169"></Dest>
+			<Dest Number="2" Destination="As2" InterfaceTowardDest="10.0.0.170"></Dest>
+		</Link>
+		
+		
+		<Link Number="5" Bandwidth="100" Cost="90" Delay="1" Adapter1="10.0.0.126" Adapter2="10.0.0.125" NumberOfDest="2">
+			<Dest Number="1" Destination="As12" InterfaceTowardDest="10.0.0.125"></Dest>
+			<Dest Number="2" Destination="As2" InterfaceTowardDest="10.0.0.126"></Dest>
+		</Link>
+	
+	
+		<Link Number="6" Bandwidth="100" Cost="70" Delay="1" Adapter1="10.0.0.182" Adapter2="10.0.0.181" NumberOfDest="2">
+			<Dest Number="1" Destination="As4" InterfaceTowardDest="10.0.0.181"></Dest>
+			<Dest Number="2" Destination="As2" InterfaceTowardDest="10.0.0.182"></Dest>
+		</Link>
+	
+		<Link Number="7" Bandwidth="100" Cost="70" Delay="1" Adapter1="10.0.0.90" Adapter2="10.0.0.89" NumberOfDest="2">
+			<Dest Number="1" Destination="As6" InterfaceTowardDest="10.0.0.89"></Dest>
+			<Dest Number="2" Destination="As2" InterfaceTowardDest="10.0.0.90"></Dest>
+		</Link>
+		
+		<Link Number="8" Bandwidth="100" Cost="370" Delay="1" Adapter1="10.0.0.69" Adapter2="10.0.0.70" NumberOfDest="2">
+			<Dest Number="1" Destination="As8" InterfaceTowardDest="10.0.0.70"></Dest>
+			<Dest Number="2" Destination="As2" InterfaceTowardDest="10.0.0.69"></Dest>
+		</Link>
+		
+		<Link Number="9" Bandwidth="100" Cost="395" Delay="1" Adapter1="10.0.0.138" Adapter2="10.0.0.137" NumberOfDest="2">
+			<Dest Number="1" Destination="As3" InterfaceTowardDest="10.0.0.137"></Dest>
+			<Dest Number="2" Destination="As2" InterfaceTowardDest="10.0.0.138"></Dest>
+		</Link>
+	
+	<!-- Router 3-->	
+
+	
+		<Link Number="10" Bandwidth="100" Cost="1" Delay="1" Adapter1="As3" Adapter2="10.0.3.1" NumberOfDest="3">
+			<Dest Number="1" Destination="As3" InterfaceTowardDest="As3"></Dest>
+			<Dest Number="2" Destination="As2" InterfaceTowardDest="10.0.3.1"></Dest>
+			<Dest Number="3" Destination="As11" InterfaceTowardDest="10.0.3.1"></Dest>
+		</Link>
+
+		<Link Number="11" Bandwidth="100" Cost="405" Delay="1" Adapter1="10.0.0.166" Adapter2="10.0.0.165" NumberOfDest="2">
+			<Dest Number="1" Destination="As11" InterfaceTowardDest="10.0.0.165"></Dest>
+			<Dest Number="2" Destination="As3" InterfaceTowardDest="10.0.0.166"></Dest>
+		</Link>
+
+	<!-- Router 4-->
+
+
+		<Link Number="12" Bandwidth="100" Cost="1" Delay="1" Adapter1="As4" Adapter2="10.0.4.1" NumberOfDest="5">
+			<Dest Number="1" Destination="As4" InterfaceTowardDest="As4"></Dest>
+			<Dest Number="2" Destination="As11" InterfaceTowardDest="10.0.4.1"></Dest>
+			<Dest Number="3" Destination="As5" InterfaceTowardDest="10.0.4.1"></Dest>
+			<Dest Number="4" Destination="As2" InterfaceTowardDest="10.0.4.1"></Dest>
+			<Dest Number="5" Destination="As23" InterfaceTowardDest="10.0.4.1"></Dest>
+		</Link>
+
+		<Link Number="13" Bandwidth="100" Cost="70" Delay="1" Adapter1="10.0.0.102" Adapter2="10.0.0.101" NumberOfDest="2">
+			<Dest Number="1" Destination="As11" InterfaceTowardDest="10.0.0.101"></Dest>
+			<Dest Number="2" Destination="As4" InterfaceTowardDest="10.0.0.102"></Dest>
+		</Link>
+
+
+		<Link Number="14" Bandwidth="100" Cost="395" Delay="1" Adapter1="10.0.0.22" Adapter2="10.0.0.21" NumberOfDest="2">
+			<Dest Number="1" Destination="As5" InterfaceTowardDest="10.0.0.21"></Dest>
+			<Dest Number="2" Destination="As4" InterfaceTowardDest="10.0.0.22"></Dest>
+		</Link>
+	
+		<Link Number="15" Bandwidth="100" Cost="6700" Delay="1" Adapter1="10.0.0.117" Adapter2="10.0.0.118" NumberOfDest="2">
+			<Dest Number="1" Destination="As23" InterfaceTowardDest="10.0.0.118"></Dest>
+			<Dest Number="2" Destination="As4" InterfaceTowardDest="10.0.0.117"></Dest>
+		</Link>
+		
+		<!-- Router 5-->
+			
+		<Link Number="16" Bandwidth="100" Cost="1" Delay="1" Adapter1="As5" Adapter2="10.0.5.1" NumberOfDest="4">
+			<Dest Number="1" Destination="As5" InterfaceTowardDest="As5"></Dest>
+			<Dest Number="2" Destination="As4" InterfaceTowardDest="10.0.5.1"></Dest>
+			<Dest Number="3" Destination="As9" InterfaceTowardDest="10.0.5.1"></Dest>
+			<Dest Number="4" Destination="As6" InterfaceTowardDest="10.0.5.1"></Dest>
+		</Link>
+
+		<Link Number="17" Bandwidth="100" Cost="6070" Delay="1" Adapter1="10.0.0.25" Adapter2="10.0.0.26" NumberOfDest="2">
+			<Dest Number="1" Destination="As9" InterfaceTowardDest="10.0.0.26"></Dest>
+			<Dest Number="2" Destination="As5" InterfaceTowardDest="10.0.0.25"></Dest>
+		</Link>
+
+		
+		<Link Number="18" Bandwidth="100" Cost="400" Delay="1" Adapter1="10.0.0.17" Adapter2="10.0.0.18" NumberOfDest="2">
+			<Dest Number="1" Destination="As6" InterfaceTowardDest="10.0.0.18"></Dest>
+			<Dest Number="2" Destination="As5" InterfaceTowardDest="10.0.0.17"></Dest>
+		</Link>
+		
+		
+		<!-- Router 6-->
+						
+		<Link Number="19" Bandwidth="100" Cost="1" Delay="1" Adapter1="As6" Adapter2="10.0.6.1" NumberOfDest="7">
+			<Dest Number="1" Destination="As6" InterfaceTowardDest="As6"></Dest>
+			<Dest Number="2" Destination="As2" InterfaceTowardDest="10.0.6.1"></Dest>
+			<Dest Number="3" Destination="As5" InterfaceTowardDest="10.0.6.1"></Dest>
+			<Dest Number="4" Destination="As9" InterfaceTowardDest="10.0.6.1"></Dest>
+			<Dest Number="5" Destination="As11" InterfaceTowardDest="10.0.6.1"></Dest>
+			<Dest Number="6" Destination="As10" InterfaceTowardDest="10.0.6.1"></Dest>
+			<Dest Number="7" Destination="As7" InterfaceTowardDest="10.0.6.1"></Dest>
+		</Link>
+
+		<Link Number="20" Bandwidth="100" Cost="6400" Delay="1" Adapter1="10.0.0.85" Adapter2="10.0.0.86" NumberOfDest="2">
+			<Dest Number="1" Destination="As9" InterfaceTowardDest="10.0.0.86"></Dest>
+			<Dest Number="2" Destination="As6" InterfaceTowardDest="10.0.0.85"></Dest>
+		</Link>
+		
+								
+		<Link Number="21" Bandwidth="100" Cost="100" Delay="1" Adapter1="10.0.0.50" Adapter2="10.0.0.49" NumberOfDest="2">
+			<Dest Number="1" Destination="As11" InterfaceTowardDest="10.0.0.49"></Dest>
+			<Dest Number="2" Destination="As6" InterfaceTowardDest="10.0.0.50"></Dest>
+		</Link>
+		
+								
+		<Link Number="22" Bandwidth="100" Cost="90" Delay="1" Adapter1="10.0.0.10" Adapter2="10.0.0.9" NumberOfDest="2">
+			<Dest Number="1" Destination="As10" InterfaceTowardDest="10.0.0.9"></Dest>
+			<Dest Number="2" Destination="As6" InterfaceTowardDest="10.0.0.10"></Dest>
+		</Link>
+		
+								
+		<Link Number="23" Bandwidth="100" Cost="70" Delay="1" Adapter1="10.0.0.30" Adapter2="10.0.0.29" NumberOfDest="2">
+			<Dest Number="1" Destination="As7" InterfaceTowardDest="10.0.0.29"></Dest>
+			<Dest Number="2" Destination="As6" InterfaceTowardDest="10.0.0.30"></Dest>
+		</Link>
+		
+		<!-- Router 7-->
+	
+		<Link Number="24" Bandwidth="100" Cost="1" Delay="1" Adapter1="As7" Adapter2="10.0.7.1" NumberOfDest="4">
+			<Dest Number="1" Destination="As7" InterfaceTowardDest="As7"></Dest>
+			<Dest Number="2" Destination="As6" InterfaceTowardDest="10.0.7.1"></Dest>
+			<Dest Number="3" Destination="As14" InterfaceTowardDest="10.0.7.1"></Dest>
+			<Dest Number="4" Destination="As15" InterfaceTowardDest="10.0.7.1"></Dest>
+		</Link>
+										
+		<Link Number="25" Bandwidth="100" Cost="70" Delay="1" Adapter1="10.0.0.33" Adapter2="10.0.0.34" NumberOfDest="2">
+			<Dest Number="1" Destination="As14" InterfaceTowardDest="10.0.0.34"></Dest>
+			<Dest Number="2" Destination="As7" InterfaceTowardDest="10.0.0.33"></Dest>
+		</Link>
+		
+		<Link Number="26" Bandwidth="100" Cost="100" Delay="1" Adapter1="10.0.0.2" Adapter2="10.0.0.1" NumberOfDest="2">
+			<Dest Number="1" Destination="As15" InterfaceTowardDest="10.0.0.1"></Dest>
+			<Dest Number="2" Destination="As7" InterfaceTowardDest="10.0.0.2"></Dest>
+		</Link>
+		
+		<!-- Router 8-->
+		
+	
+		<Link Number="27" Bandwidth="100" Cost="1" Delay="1" Adapter1="As8" Adapter2="10.0.8.1" NumberOfDest="3">
+			<Dest Number="1" Destination="As8" InterfaceTowardDest="As8"></Dest>
+			<Dest Number="2" Destination="As10" InterfaceTowardDest="10.0.8.1"></Dest>
+			<Dest Number="3" Destination="As2" InterfaceTowardDest="10.0.8.1"></Dest>
+		</Link>
+				
+		<Link Number="28" Bandwidth="100" Cost="350" Delay="1" Adapter1="10.0.0.78" Adapter2="10.0.0.77" NumberOfDest="2">
+			<Dest Number="1" Destination="As10" InterfaceTowardDest="10.0.0.77"></Dest>
+			<Dest Number="2" Destination="As8" InterfaceTowardDest="10.0.0.78"></Dest>
+		</Link>
+
+		<!-- Router 9-->
+	
+		<Link Number="29" Bandwidth="100" Cost="1" Delay="1" Adapter1="As9" Adapter2="10.0.9.1" NumberOfDest="3">
+			<Dest Number="1" Destination="As9" InterfaceTowardDest="As9"></Dest>
+			<Dest Number="2" Destination="As5" InterfaceTowardDest="10.0.9.1"></Dest>
+			<Dest Number="3" Destination="As6" InterfaceTowardDest="10.0.9.1"></Dest>
+		</Link>
+		
+		<!-- Router 10-->
+		
+	
+		<Link Number="30" Bandwidth="100" Cost="1" Delay="1" Adapter1="As10" Adapter2="10.0.10.1" NumberOfDest="4">
+			<Dest Number="1" Destination="As10" InterfaceTowardDest="As10"></Dest>
+			<Dest Number="2" Destination="As14" InterfaceTowardDest="10.0.10.1"></Dest>
+			<Dest Number="3" Destination="As6" InterfaceTowardDest="10.0.10.1"></Dest>
+			<Dest Number="4" Destination="As8" InterfaceTowardDest="10.0.10.1"></Dest>
+		</Link>
+
+		<Link Number="31" Bandwidth="100" Cost="70" Delay="1" Adapter1="10.0.0.185" Adapter2="10.0.0.186" NumberOfDest="2">
+			<Dest Number="1" Destination="As14" InterfaceTowardDest="10.0.0.186"></Dest>
+			<Dest Number="2" Destination="As10" InterfaceTowardDest="10.0.0.185"></Dest>
+		</Link>	
+		
+						
+		<Link Number="32" Bandwidth="100" Cost="350" Delay="1" Adapter1="10.0.0.77" Adapter2="10.0.0.78" NumberOfDest="2">
+			<Dest Number="1" Destination="As8" InterfaceTowardDest="10.0.0.78"></Dest>
+			<Dest Number="2" Destination="As10" InterfaceTowardDest="10.0.0.77"></Dest>
+		</Link>
+		
+						
+		<Link Number="33" Bandwidth="100" Cost="90" Delay="1" Adapter1="10.0.0.9" Adapter2="10.0.0.10" NumberOfDest="2">
+			<Dest Number="1" Destination="As6" InterfaceTowardDest="10.0.0.10"></Dest>
+			<Dest Number="2" Destination="As10" InterfaceTowardDest="10.0.0.9"></Dest>
+		</Link>	
+		
+		<!-- Router 11-->
+	
+		<Link Number="34" Bandwidth="100" Cost="1" Delay="1" Adapter1="As11" Adapter2="10.0.11.1" NumberOfDest="6">
+			<Dest Number="1" Destination="As11" InterfaceTowardDest="As11"></Dest>
+			<Dest Number="2" Destination="As4" InterfaceTowardDest="10.0.11.1"></Dest>
+			<Dest Number="3" Destination="As3" InterfaceTowardDest="10.0.11.1"></Dest>
+			<Dest Number="4" Destination="As17" InterfaceTowardDest="10.0.11.1"></Dest>
+			<Dest Number="5" Destination="As13" InterfaceTowardDest="10.0.11.1"></Dest>
+			<Dest Number="6" Destination="As6" InterfaceTowardDest="10.0.11.1"></Dest>
+		</Link>
+		
+		<Link Number="35" Bandwidth="100" Cost="100" Delay="1" Adapter1="10.0.0.38" Adapter2="10.0.0.37" NumberOfDest="2">
+			<Dest Number="1" Destination="As17" InterfaceTowardDest="10.0.0.37"></Dest>
+			<Dest Number="2" Destination="As11" InterfaceTowardDest="10.0.0.38"></Dest>
+		</Link>	
+		
+								
+		<Link Number="36" Bandwidth="100" Cost="1" Delay="1" Adapter1="10.0.0.129" Adapter2="10.0.0.130" NumberOfDest="2">
+			<Dest Number="1" Destination="As13" InterfaceTowardDest="10.0.0.130"></Dest>
+			<Dest Number="2" Destination="As11" InterfaceTowardDest="10.0.0.129"></Dest>
+		</Link>	
+		
+	<!-- Router 12-->	
+	
+		
+		<Link Number="37" Bandwidth="100" Cost="1" Delay="1" Adapter1="As12" Adapter2="10.0.12.1" NumberOfDest="4">
+			<Dest Number="1" Destination="As12" InterfaceTowardDest="As12"></Dest>
+			<Dest Number="2" Destination="As16" InterfaceTowardDest="10.0.12.1"></Dest>
+			<Dest Number="3" Destination="As13" InterfaceTowardDest="10.0.12.1"></Dest>
+			<Dest Number="4" Destination="As2" InterfaceTowardDest="10.0.12.1"></Dest>
+		</Link>
+
+		<Link Number="38" Bandwidth="100" Cost="150" Delay="1" Adapter1="10.0.0.113" Adapter2="10.0.0.114" NumberOfDest="2">
+			<Dest Number="1" Destination="As16" InterfaceTowardDest="10.0.0.114"></Dest>
+			<Dest Number="2" Destination="As12" InterfaceTowardDest="10.0.0.113"></Dest>
+		</Link>	
+	
+		<Link Number="39" Bandwidth="100" Cost="100" Delay="1" Adapter1="10.0.0.66" Adapter2="10.0.0.65" NumberOfDest="2">
+			<Dest Number="1" Destination="As13" InterfaceTowardDest="10.0.0.65"></Dest>
+			<Dest Number="2" Destination="As12" InterfaceTowardDest="10.0.0.66"></Dest>
+		</Link>	
+		
+	<!-- Router 13-->
+		
+		<Link Number="40" Bandwidth="100" Cost="1" Delay="1" Adapter1="As13" Adapter2="10.0.13.1" NumberOfDest="6">
+			<Dest Number="1" Destination="As13" InterfaceTowardDest="As13"></Dest>
+			<Dest Number="2" Destination="As12" InterfaceTowardDest="10.0.13.1"></Dest>
+			<Dest Number="3" Destination="As15" InterfaceTowardDest="10.0.13.1"></Dest>
+			<Dest Number="4" Destination="As22" InterfaceTowardDest="10.0.13.1"></Dest>
+			<Dest Number="5" Destination="As14" InterfaceTowardDest="10.0.13.1"></Dest>
+			<Dest Number="6" Destination="As11" InterfaceTowardDest="10.0.13.1"></Dest>
+		</Link>
+
+		<Link Number="41" Bandwidth="100" Cost="100" Delay="1" Adapter1="10.0.0.58" Adapter2="10.0.0.57" NumberOfDest="2">
+			<Dest Number="1" Destination="As15" InterfaceTowardDest="10.0.0.57"></Dest>
+			<Dest Number="2" Destination="As13" InterfaceTowardDest="10.0.0.58"></Dest>
+		</Link>	
+		
+		<Link Number="42" Bandwidth="100" Cost="400" Delay="1" Adapter1="10.0.0.82" Adapter2="10.0.0.81" NumberOfDest="2">
+			<Dest Number="1" Destination="As22" InterfaceTowardDest="10.0.0.81"></Dest>
+			<Dest Number="2" Destination="As13" InterfaceTowardDest="10.0.0.82"></Dest>
+		</Link>	
+		
+		<Link Number="43" Bandwidth="100" Cost="70" Delay="1" Adapter1="10.0.0.61" Adapter2="10.0.0.62" NumberOfDest="2">
+			<Dest Number="1" Destination="As14" InterfaceTowardDest="10.0.0.62"></Dest>
+			<Dest Number="2" Destination="As13" InterfaceTowardDest="10.0.0.61"></Dest>
+		</Link>	
+		
+	<!-- Router 14-->	
+
+	
+		<Link Number="44" Bandwidth="100" Cost="1" Delay="1" Adapter1="As14" Adapter2="10.0.14.1" NumberOfDest="6">
+			<Dest Number="1" Destination="As14" InterfaceTowardDest="As14"></Dest>
+			<Dest Number="2" Destination="As10" InterfaceTowardDest="10.0.14.1"></Dest>
+			<Dest Number="3" Destination="As13" InterfaceTowardDest="10.0.14.1"></Dest>
+			<Dest Number="4" Destination="As23" InterfaceTowardDest="10.0.14.1"></Dest>
+			<Dest Number="5" Destination="As22" InterfaceTowardDest="10.0.14.1"></Dest>
+			<Dest Number="6" Destination="As7" InterfaceTowardDest="10.0.14.1"></Dest>
+		</Link>
+
+				
+		<Link Number="45" Bandwidth="100" Cost="6600" Delay="1" Adapter1="10.0.0.154" Adapter2="10.0.0.153" NumberOfDest="2">
+			<Dest Number="1" Destination="As23" InterfaceTowardDest="10.0.0.153"></Dest>
+			<Dest Number="2" Destination="As14" InterfaceTowardDest="10.0.0.154"></Dest>
+		</Link>
+		
+						
+		<Link Number="46" Bandwidth="100" Cost="395" Delay="1" Adapter1="10.0.0.142" Adapter2="10.0.0.141" NumberOfDest="2">
+			<Dest Number="1" Destination="As22" InterfaceTowardDest="10.0.0.141"></Dest>
+			<Dest Number="2" Destination="As14" InterfaceTowardDest="10.0.0.142"></Dest>
+		</Link>
+		
+	
+	<!-- Router 15-->	
+
+	
+		<Link Number="47" Bandwidth="100" Cost="1" Delay="1" Adapter1="As15" Adapter2="10.0.15.1" NumberOfDest="6">
+			<Dest Number="1" Destination="As15" InterfaceTowardDest="As15"></Dest>
+			<Dest Number="2" Destination="As19" InterfaceTowardDest="10.0.15.1"></Dest>
+			<Dest Number="3" Destination="As21" InterfaceTowardDest="10.0.15.1"></Dest>
+			<Dest Number="4" Destination="As1" InterfaceTowardDest="10.0.15.1"></Dest>
+			<Dest Number="5" Destination="As7" InterfaceTowardDest="10.0.15.1"></Dest>
+			<Dest Number="6" Destination="As13" InterfaceTowardDest="10.0.15.1"></Dest>
+		</Link>
+	
+		<Link Number="48" Bandwidth="100" Cost="150" Delay="1" Adapter1="10.0.0.177" Adapter2="10.0.0.178" NumberOfDest="2">
+			<Dest Number="1" Destination="As19" InterfaceTowardDest="10.0.0.178"></Dest>
+			<Dest Number="2" Destination="As15" InterfaceTowardDest="10.0.0.177"></Dest>
+		</Link>
+		
+								
+		<Link Number="49" Bandwidth="100" Cost="400" Delay="1" Adapter1="10.0.0.13" Adapter2="10.0.0.14" NumberOfDest="2">
+			<Dest Number="1" Destination="As21" InterfaceTowardDest="10.0.0.14"></Dest>
+			<Dest Number="2" Destination="As15" InterfaceTowardDest="10.0.0.13"></Dest>
+		</Link>
+
+
+	<!-- Router 16-->
+	
+		<Link Number="50" Bandwidth="100" Cost="1" Delay="1" Adapter1="As16" Adapter2="10.0.16.1" NumberOfDest="3">
+			<Dest Number="1" Destination="As16" InterfaceTowardDest="As16"></Dest>
+			<Dest Number="2" Destination="As17" InterfaceTowardDest="10.0.16.1"></Dest>
+			<Dest Number="3" Destination="As12" InterfaceTowardDest="10.0.16.1"></Dest>
+		</Link>
+
+									
+		<Link Number="51" Bandwidth="100" Cost="350" Delay="1" Adapter1="10.0.0.46" Adapter2="10.0.0.45" NumberOfDest="2">
+			<Dest Number="1" Destination="As17" InterfaceTowardDest="10.0.0.45"></Dest>
+			<Dest Number="2" Destination="As16" InterfaceTowardDest="10.0.0.46"></Dest>
+		</Link>
+	
+	<!-- Router 17-->			
+
+	
+		<Link Number="52" Bandwidth="100" Cost="1" Delay="1" Adapter1="As17" Adapter2="10.0.17.1" NumberOfDest="4">
+			<Dest Number="1" Destination="As17" InterfaceTowardDest="As17"></Dest>
+			<Dest Number="2" Destination="As16" InterfaceTowardDest="10.0.17.1"></Dest>
+			<Dest Number="3" Destination="As18" InterfaceTowardDest="10.0.17.1"></Dest>
+			<Dest Number="4" Destination="As11" InterfaceTowardDest="10.0.17.1"></Dest>
+		</Link>
+									
+		<Link Number="53" Bandwidth="100" Cost="250" Delay="1" Adapter1="10.0.0.41" Adapter2="10.0.0.42" NumberOfDest="2">
+			<Dest Number="1" Destination="As18" InterfaceTowardDest="10.0.0.42"></Dest>
+			<Dest Number="2" Destination="As17" InterfaceTowardDest="10.0.0.41"></Dest>
+		</Link>
+
+	<!-- Router 18-->	
+	
+	
+		<Link Number="54" Bandwidth="100" Cost="1" Delay="1" Adapter1="As18" Adapter2="10.0.18.1" NumberOfDest="3">
+			<Dest Number="1" Destination="As18" InterfaceTowardDest="As18"></Dest>
+			<Dest Number="2" Destination="As17" InterfaceTowardDest="10.0.18.1"></Dest>
+			<Dest Number="3" Destination="As19" InterfaceTowardDest="10.0.18.1"></Dest>
+		</Link>
+								
+		<Link Number="55" Bandwidth="100" Cost="170" Delay="1" Adapter1="10.0.0.106" Adapter2="10.0.0.105" NumberOfDest="2">
+			<Dest Number="1" Destination="As19" InterfaceTowardDest="10.0.0.105"></Dest>
+			<Dest Number="2" Destination="As18" InterfaceTowardDest="10.0.0.106"></Dest>
+		</Link>
+	
+	<!-- Router 19-->	
+	
+		<Link Number="56" Bandwidth="100" Cost="1" Delay="1" Adapter1="As19" Adapter2="10.0.19.1" NumberOfDest="3">
+			<Dest Number="1" Destination="As19" InterfaceTowardDest="As19"></Dest>
+			<Dest Number="2" Destination="As18" InterfaceTowardDest="10.0.19.1"></Dest>
+			<Dest Number="3" Destination="As20" InterfaceTowardDest="10.0.19.1"></Dest>
+		</Link>
+	
+								
+		<Link Number="57" Bandwidth="100" Cost="400" Delay="1" Adapter1="10.0.0.146" Adapter2="10.0.0.145" NumberOfDest="2">
+			<Dest Number="1" Destination="As20" InterfaceTowardDest="10.0.0.145"></Dest>
+			<Dest Number="2" Destination="As19" InterfaceTowardDest="10.0.0.146"></Dest>
+		</Link>
+		
+	<!-- Router 20-->	
+	
+		<Link Number="58" Bandwidth="100" Cost="1" Delay="1" Adapter1="As20" Adapter2="10.0.20.1" NumberOfDest="3">
+			<Dest Number="1" Destination="As20" InterfaceTowardDest="As20"></Dest>
+			<Dest Number="2" Destination="As19" InterfaceTowardDest="10.0.20.1"></Dest>
+			<Dest Number="3" Destination="As21" InterfaceTowardDest="10.0.20.1"></Dest>
+		</Link>
+
+								
+		<Link Number="59" Bandwidth="100" Cost="400" Delay="1" Adapter1="10.0.0.73" Adapter2="10.0.0.74" NumberOfDest="2">
+			<Dest Number="1" Destination="As21" InterfaceTowardDest="10.0.0.74"></Dest>
+			<Dest Number="2" Destination="As20" InterfaceTowardDest="10.0.0.73"></Dest>
+		</Link>
+		
+	<!-- Router 21-->
+	
+		<Link Number="60" Bandwidth="100" Cost="1" Delay="1" Adapter1="As21" Adapter2="10.0.21.1" NumberOfDest="3">
+			<Dest Number="1" Destination="As21" InterfaceTowardDest="As21"></Dest>
+			<Dest Number="2" Destination="As20" InterfaceTowardDest="10.0.21.1"></Dest>
+			<Dest Number="3" Destination="As15" InterfaceTowardDest="10.0.21.1"></Dest>
+		</Link>
+
+	<!-- Router 22-->
+		
+		<Link Number="61" Bandwidth="100" Cost="1" Delay="1" Adapter1="As22" Adapter2="10.0.22.1" NumberOfDest="3">
+			<Dest Number="1" Destination="As22" InterfaceTowardDest="As22"></Dest>
+			<Dest Number="2" Destination="As14" InterfaceTowardDest="10.0.22.1"></Dest>
+			<Dest Number="3" Destination="As13" InterfaceTowardDest="10.0.22.1"></Dest>
+		</Link>
+		
+	<!-- Router 23-->
+		
+		<Link Number="62" Bandwidth="100" Cost="1" Delay="1" Adapter1="As23" Adapter2="10.0.23.1" NumberOfDest="3">
+			<Dest Number="1" Destination="As23" InterfaceTowardDest="As23"></Dest>
+			<Dest Number="2" Destination="As14" InterfaceTowardDest="10.0.23.1"></Dest>
+			<Dest Number="3" Destination="As4" InterfaceTowardDest="10.0.23.1"></Dest>
+		</Link>
+	</Links>
+</TransitNetwork>

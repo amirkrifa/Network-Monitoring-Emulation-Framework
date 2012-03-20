@@ -1,0 +1,4 @@
+*.o
+flowd
+flowd-reader
+*.old

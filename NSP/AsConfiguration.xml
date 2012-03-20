@@ -1,0 +1,52 @@
+<!--  Copyright (C) 2010  INRIA, Planète Team                                 -->
+<!--  Authors:                                                                -->
+<!--  Amir Krifa			:  Amir.Krifa@sophia.inria.fr                           -->
+<!--  Imed Lassoued	            :  Imed.Lassoued@sophia.inria.fr              -->
+<!--  Chadi Barakat			:  Chadi.Barakat@sophia.inria.fr                      -->
+<!--This program is free software; you can redistribute it and/or              -->
+<!--modify it under the terms of the GNU General Public License version 3      -->
+<!--as published by the Free Software Foundation.                              -->
+<!--This program is distributed in the hope that it will be useful,            -->
+<!--but WITHOUT ANY WARRANTY; without even the implied warranty of             -->
+<!--MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the              -->
+<!--GNU General Public License for more details.                               -->
+<!--You should have received a copy of the GNU General Public License          -->
+<!--along with this program; if not, write to the Free Software                -->
+<!--Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.-->
+
+
+<?xml version="1.0" ?>
+<EdgeNetwork>
+	
+	<ListOfAs NumberOfAs="23" DispatchingMethod = "1" IpMask ="4">
+	
+		<AS Number = "1" MaxNumberOfIps = "-1" Importance = "1" Min="0" Max="1" UniqueIpClass = "X" IpsRangeStart = "" IpsRangeEnd = ""/>
+		<AS Number = "2" MaxNumberOfIps = "-1" Importance = "3" Min="2" Max="4" UniqueIpClass = "X" IpsRangeStart = "" IpsRangeEnd = ""/>
+		<AS Number = "3" MaxNumberOfIps = "-1" Importance = "3" Min="5" Max="7" UniqueIpClass = "X" IpsRangeStart = "" IpsRangeEnd = ""/>
+		<AS Number = "4" MaxNumberOfIps = "-1" Importance = "7" Min="8" Max="14" UniqueIpClass = "X" IpsRangeStart = "" IpsRangeEnd = ""/>
+		<AS Number = "5" MaxNumberOfIps = "-1" Importance = "4" Min="15" Max="18" UniqueIpClass = "X" IpsRangeStart = "" IpsRangeEnd = ""/>
+		<AS Number = "6" MaxNumberOfIps = "-1" Importance = "4" Min="19" Max="22" UniqueIpClass = "X" IpsRangeStart = "" IpsRangeEnd = ""/>
+		<AS Number = "7" MaxNumberOfIps = "-1" Importance = "10" Min="23" Max="32" UniqueIpClass = "X" IpsRangeStart = "" IpsRangeEnd = ""/>
+		<AS Number = "8" MaxNumberOfIps = "-1" Importance = "6" Min="33" Max="38" UniqueIpClass = "X" IpsRangeStart = "" IpsRangeEnd = ""/>
+		<AS Number = "9" MaxNumberOfIps = "-1" Importance = "1" Min="39" Max="39" UniqueIpClass = "X" IpsRangeStart = "" IpsRangeEnd = ""/>
+		<AS Number = "10" MaxNumberOfIps = "-1" Importance = "5" Min="40" Max="44" UniqueIpClass = "X" IpsRangeStart = "" IpsRangeEnd = ""/>
+		<AS Number = "11" MaxNumberOfIps = "-1" Importance = "10" Min="45" Max="54" UniqueIpClass = "X" IpsRangeStart = "" IpsRangeEnd = ""/>
+		<AS Number = "12" MaxNumberOfIps = "-1" Importance = "1" Min="55" Max="55" UniqueIpClass = "X" IpsRangeStart = "" IpsRangeEnd = ""/>
+		<AS Number = "13" MaxNumberOfIps = "-1" Importance = "3" Min="56" Max="58" UniqueIpClass = "X" IpsRangeStart = "" IpsRangeEnd = ""/>
+		<AS Number = "14" MaxNumberOfIps = "-1" Importance = "1"  Min="59" Max="59" UniqueIpClass = "X" IpsRangeStart = "" IpsRangeEnd = ""/>
+		<AS Number = "15" MaxNumberOfIps = "-1" Importance = "8" Min="60" Max="67" UniqueIpClass = "X" IpsRangeStart = "" IpsRangeEnd = ""/>
+		<AS Number = "16" MaxNumberOfIps = "-1" Importance = "7" Min="68" Max="74" UniqueIpClass = "X" IpsRangeStart = "" IpsRangeEnd = ""/>
+		<AS Number = "17" MaxNumberOfIps = "-1" Importance = "3" Min="75" Max="77" UniqueIpClass = "X" IpsRangeStart = "" IpsRangeEnd = ""/>
+		<AS Number = "18" MaxNumberOfIps = "-1" Importance = "2" Min="78" Max="79" UniqueIpClass = "X" IpsRangeStart = "" IpsRangeEnd = ""/>
+		<AS Number = "19" MaxNumberOfIps = "-1" Importance = "5" Min="80" Max="84" UniqueIpClass = "X" IpsRangeStart = "" IpsRangeEnd = ""/>
+		<AS Number = "20" MaxNumberOfIps = "-1" Importance = "9" Min="85" Max="93" UniqueIpClass = "X" IpsRangeStart = "" IpsRangeEnd = ""/>
+		<AS Number = "21" MaxNumberOfIps = "-1" Importance = "2" Min="94" Max="95" UniqueIpClass = "X" IpsRangeStart = "" IpsRangeEnd = ""/>
+		<AS Number = "22" MaxNumberOfIps = "-1" Importance = "3"  Min="96" Max="98" UniqueIpClass = "X" IpsRangeStart = "" IpsRangeEnd = ""/>
+		<AS Number = "23" MaxNumberOfIps = "-1" Importance = "2" Min="99" Max="100" UniqueIpClass = "X" IpsRangeStart = "" IpsRangeEnd = ""/>
+	
+	</ListOfAs>
+	
+	<DataRecordsFiles>
+	
+	</DataRecordsFiles>	
+</EdgeNetwork>

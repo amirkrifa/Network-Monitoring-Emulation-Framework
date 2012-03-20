@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?PowerDesigner signature="Workspace" version="15.1.0.2850"?>
+<!-- Veuillez ne pas modifier ce fichier -->
+
+<Workspace>
+	<Local Expanded="Yes">
+		<Model Expanded="Yes" ID="{29B1D619-3326-484A-9AED-D8762B44B7CE}" Loaded="No" Name="NSP" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="NSP.moo"/>
+		<Model Expanded="Yes" ID="{CA2C89A0-DFCF-4EA0-8028-1D220CF5967A}" Loaded="No" Name="CCMSN" Type="{FF4B6538-9856-42CF-B9B9-304ED370CEAA}" URL="/MyMercurialRep/EclipseWorkSpace/CCMSN/CCMSN.prj"/>
+		<Model Expanded="Yes" ID="{CA2C89A0-DFCF-4EA0-8028-1D220CF5967A}" Loaded="No" Name="CCMSN" Type="{FF4B6538-9856-42CF-B9B9-304ED370CEAA}" URL="/MyMercurialRep/EclipseWorkSpace/CCMSN/CCMSN.prj"/>
+		<Model Expanded="Yes" ID="{54D22954-A9C2-4F4D-9931-4A4D0CFB144F}" Loaded="No" Name="TMC UML" Type="{FF4B6538-9856-42CF-B9B9-304ED370CEAA}" URL="/MyMercurialRep/EclipseWorkSpace/TMC UML/TMC UML.prj"/>
+		<Model Expanded="Yes" ID="{CA2C89A0-DFCF-4EA0-8028-1D220CF5967A}" Name="CCMSN" Type="{FF4B6538-9856-42CF-B9B9-304ED370CEAA}" URL="/MyMercurialRep/EclipseWorkSpace/CCMSN/CCMSN.prj"/>
+	</Local>
+	<BrowserModule Name="Référentiel"/>
+</Workspace>

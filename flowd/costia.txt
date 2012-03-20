@@ -1,0 +1,2 @@
+timeur: 232.799973, 	 Ovr: 336.800030 	 Pinit 0.015500 	 sigma 5.139999 	 minf 0.004370 	 maxf 0.313700 
+K_exp: 182, 	 buffer size: 78407 

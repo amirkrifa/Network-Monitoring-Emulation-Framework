@@ -1,0 +1,1 @@
+sigma: 1.013847, 	 stepp: 1.174654 	 stepp_des 1.174654 	 ovh 48.550000 	 lcompteur 140 	 sizeval 6797
